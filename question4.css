@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.static-container{
+    display:flex;
+    margin: 10px;
+    position: static;
+    background-color: rgb(236, 228, 182);
+    
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(136, 1, 255);
+    margin-right: 10px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 1, 1);
+    margin-right: 10px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(1, 255, 90);
+    margin-right: 10px;
+}
+.relative-container{
+    display: flex;
+    margin-bottom: 150px;
+    background-color: rgb(236, 228, 182);
+}
+.relative-container .box2{
+   position: relative;
+   left: 100px;
+   top: 90px;
+   
+}
+.none-property{
+    display: none;
+    background-color: rgb(236, 228, 182);
+}
+
+
+.float-left{
+display: flex;
+float:left;
+background-color: rgb(236, 228, 182);
+
+}
+
+.float-right{
+    
+    background-color: rgb(236, 228, 182);
+    display: flex;
+    float:right;   
+}

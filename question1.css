@@ -22,17 +22,21 @@ td{
     
 }
 tr td input{
-    height: 14px;
+    height: 20px;
+    
 }
 .container{
   margin: auto 330px;
   width: 750px;
-  background-color: cyan;
+  background-color: black;
+  color:aqua;
 padding: 15px;
 }
 input{
     border:none;
     outline: none;
+    
+    
 }
 table{
     margin-left: 100px;
