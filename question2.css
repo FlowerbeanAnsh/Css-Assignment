@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+}
+form{
+   
+    font-size: 15px;
+}
+.container{
+   background-color: cyan;
+ 
+   
+   margin: auto 350px;
+ padding: 1px;
+   width: 700px;
+}
+.inputs{
+   margin-left: 100px;
+   
+}
+
+.header{
+    width: 500px;
+    height: 80px;
+    border: 2px;
+    border-style: double;
+   border-width: 4px;
+   padding-top: 24px;;
+  border-color: crimson;
+    text-align: center;
+    margin: 25px auto;
+}
+#name{
+    font-size: 13px;
+    margin-left: 59px;
+    width: 300px;
+}
+#fname{
+    font-size: 13px;
+   
+    width: 300px;
+}
+#mname{
+    font-size: 13px;
+    width: 300px;
+}
+#phone{
+    font-size: 13px;
+    width: 300px;
+}
+#email{
+    font-size: 13px;
+    margin-left: 59px;
+    width: 300px;
+}
+#blgroup{
+    font-size: 13px;
+    width: 100px;
+}
+#photo{
+    font-size: 13px;
+    width: 100px;
+}
+#gender{
+    font-size: 15px;
+    margin-right: 45px;
+    width: 300px;
+    
+}
+#dob{
+    font-size: 12px;
+    width: 100px;
+    margin-left: 15px;
+    color:blue;
+}
+#address{
+    font-size: 13px;
+    margin-left: 45px;
+    width: 300px;
+}
+#blgroup{
+    margin-left: 14px;
+    font-size: 12px;
+}
+#dept{
+    font-size: 15px;
+    margin-right: 30px;
+    width: 300px;
+
+}
+#course{
+    font-size: 15px;
+    margin-right: 56px;
+    width: 300px;
+
+
+}
+#img{
+    font-size: 13px;
+    margin-left: 59px;
+    width: 300px;
+}
+#sub{
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: crimson;
+    color: white;
+    border-style: none;
+    margin-right: 10px;
+}
+#reset{
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: crimson;
+    color: white;
+    border-style: none;
+}
+

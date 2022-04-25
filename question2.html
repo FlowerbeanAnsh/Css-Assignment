@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="./formstyle.css">
+    <link rel="stylesheet" href="./question2.css">
 </head>
 <body>
-    <div class="header">
+    <div class="container">  <div class="header">
     <h1>Student Registration Form</h1><br>
     </div>
     <form id="form">
+        <div class="inputs">
        <label for="name">Name :</label>
        <input type="text" id="name" placeholder="Enter full name" required><br><br>
        <label for="fname">Father's Name :</label>
@@ -19,23 +20,23 @@
        <label for="mname">Mother's Name :</label>
        <input type="text" id="mname"><br><br>
        <label for="phone">Phone Number :</label>
-       <input type="tel" id="phone" pattern="[91]-[0-9]{10}" required><br><br>
+       <input type="tel" id="phone" placeholder="017xxxxxxxxxx" required><br><br>
        <label for="email">Email :</label>
-       <input type="email" id="email" required><br><br>
-       <label for="gender">Gender :</label>
+       <input type="email" id="email" placeholder="sample@gmail.com" required><br><br>
+       <label for="gender" id="gender" >Gender :</label>
        
        <input type="radio" id="male" name="gender">
-       <label for="male">Male</label>
+       <label for="male">Male&nbsp&nbsp</label>
        <input type="radio" id="female" name="gender">
-       <label for="female">Female</label>
+       <label for="female">Female&nbsp</label>
        <input type="radio" id="other" name="gender">
-       <label for="other">Other</label><br><br>
+       <label for="other">Other&nbsp&nbsp</label><br><br>
        <label for="dob">Date Of Birth :</label>
        <input type="date" id="dob" required><br><br>
        <label for="address">Address :</label>
        <input type="text" id="address" placeholder="Street -  House -  Road -"><br><br>
         <label for="blgroup">Blood Group :</label>
-        <select id="blgroup" aria-placeholder="select">
+        <select id="blgroup">
             <option value="" disabled selected>select</option>
             <option value="B+">B+</option>
             <option value="B-">B-</option>
@@ -43,27 +44,27 @@
             <option value="O-">O-</option>
             <option value="AB+">AB+</option>
         </select><br><br>
-        <label for="dept">Department :</label>
+        <label for="dept" id="dept">Department :</label>
        
        <input type="radio" id="cse" name="dept">
-       <label for="cse">CSE</label>
+       <label for="cse">CSE&nbsp&nbsp</label>
        <input type="radio" id="eee" name="dept">
-       <label for="eee">EEE</label>
+       <label for="eee">EEE&nbsp&nbsp</label>
        <input type="radio" id="bba" name="dept">
-       <label for="bba">BBA</label><br><br>
-       <label for="course">Course :</label>
+       <label for="bba">BBA&nbsp</label><br><br>
+       <label for="course" id="course">Course :</label>
        <input type="checkbox" name="course">
-       <label for="c">C</label>
+       <label for="c">C&nbsp</label>
        <input type="checkbox" name="course">
-       <label for="c++">C++</label>
+       <label for="c++">C++&nbsp</label>
        <input type="checkbox" name="course">
-       <label for="Java">Java</label>
+       <label for="Java">Java&nbsp</label>
        <input type="checkbox" name="course">
-       <label for="ai">AI</label>
+       <label for="ai">AI&nbsp</label>
        <input type="checkbox" name="course">
-       <label for="ml">Mchine Learning</label>
+       <label for="ml">Machine Learning&nbsp</label>
        <input type="checkbox" name="course">
-       <label for="rob">Robotics</label><br><br>
+       <label for="rob">Robotics&nbsp</label><br><br>
        <label for="photo">Photo :</label>
        <input type="file" id="img" accept="image/*" required><br><br><br>
 
@@ -73,9 +74,9 @@
 
 
 
-
+</div>
 
     </form>
-    
+    </div>
 </body>
 </html>
