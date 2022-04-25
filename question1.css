@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.header{
+    border: 2px;
+    border-style: double;
+     padding: 10px;
+     text-align: center;
+}
+th{
+    font-size:15px;
+    margin: 15px;
+    padding: 10px;
+}
+td{
+    margin: 10px;
+    padding: 7px;
+    font-size: 15px;
+    
+}
+tr td input{
+    height: 14px;
+}
+.container{
+  margin: auto 330px;
+  width: 750px;
+  background-color: cyan;
+padding: 15px;
+}
+input{
+    border:none;
+    outline: none;
+}
+table{
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 700px;
+
+}
+#sub{
+    font-size: 12px;
+    
+}
+#res{
+font-size: 12px;
+}
