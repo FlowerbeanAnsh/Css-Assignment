@@ -20,8 +20,11 @@ form{
 }
 .inputs{
    margin-left: 100px;
+   border-style: none;
    
 }
+input {border:0;outline:0;}
+input:focus {outline:none!important;}
 
 .header{
     width: 500px;
